@@ -13,8 +13,8 @@ O objetivo do PUC Music é recomendar musicas para um usuario. Para isso utiliza
 
 ## Professores responsáveis
 
-- Nome completo do professor 1
-- Nome completo do professor 2
+- João Caram
+- Lucas Félix
 
 ## Quadro de tarefas
 
