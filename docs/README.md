@@ -1,7 +1,3 @@
 # Documentação do Projeto
 
-A documentação do projeto é composta pelos seguintes itens: 
- - [Relatório Técnico](relatorio/Relatorio%20Tecnico%20-%20TEMPLATE.md)
- - [Backlog do projeto](backlog.md) ou link para Kanban utilizado.
- - [Vídeo de Demonstração](https://youtube.com)
-
+[Link para o Docs](https://docs.google.com/document/d/1R2YC-8s3aTaC7NaCWr7-QQS-OqZDm3t8myCQtCcMF0k/edit?usp=sharing)
