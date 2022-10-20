@@ -1,5 +1,13 @@
-# Código do Projeto
+# Entendendo o projeto
 
-Mantenha neste diretório todo o código fonte do projeto. 
+## <b>Pasta Global</b>
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+#### A pasta Global serve para ser criada as estilizações de componentes que existem em todo (ou quase todo) o projeto, como por exemplo o menu lateral que sera criado mais para frente.
+
+## <b>Pasta Modules</b>
+
+#### A pasta Modules contem todos os codigos html e css referentes a cada fluxo do app, ou seja, tud referente ao fluxo de Login estará em `src/modules/Login`
+
+## <b>Pasta Scripts (em breve!)</b>
+
+#### A pasta Scripts irá conter todos os codigos JavaScript do projeto.

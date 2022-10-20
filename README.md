@@ -18,9 +18,9 @@ O objetivo do PUC Music é recomendar musicas para um usuario. Para isso utiliza
 
 ## Quadro de tarefas
 
-[Link para o Trello](https://trello.com/b/WsXvGCJa/app-front)
+[Link para o Trello](https://trello.com/b/WsXvGCJa/app-front)</br>
 [Link para o Figma]()
 
 ## Instruções para uso
 
-Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
+Iniciar o projeto em `src/modules/Login`
