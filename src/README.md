@@ -2,7 +2,7 @@
 
 ## <b>Pasta Global</b>
 
-#### A pasta Global serve para ser criada as estilizações de componentes que existem em todo (ou quase todo) o projeto, como por exemplo o menu lateral que sera criado mais para frente.
+#### A pasta Global serve para ser criada as estilizações de componentes que existem em todo (ou quase todo) o projeto, como por exemplo o menu lateral que sera criado mais para frente. </br>Os componentes da pasta Global devem ser criados com (seu-nome).css, por exemplo `global/Menu.css` ou `global/Header.css`
 
 ## <b>Pasta Modules</b>
 
