@@ -4,13 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../global/index.css" />
+    <link rel="stylesheet" href="../Login/styles.css" />
     <title>PUC Music</title>
   </head>
   <body>
-    <h1>LOGIN</h1>
-    <a href="../Home/">Ir para Home</a>
-    <a href="../Login/">Ir para Login</a>
-    <a href="../Profile/">Ir para Profile</a>
+    <body>
+      <main>
+          <section id="login">
+           <div id="main-container">
+               <h1>PUC MUSIC</h1>
+                   <form id="register-form">
+
+                      <div class="full-box">
+                          <label for="name"></label>
+                          <input type="text" name="name" id="users" placeholder="Usuário">       
+                      </div>
+                      <div class="full-box">
+                          <label for="password"></label> 
+                          <input type="password" name="password" id="password" placeholder="Digite a sua senha">       
+                        </div>
+                
+                          <div class="full-box">
+                              <input type="submit" id="btn-submit" value="Acessar">       
+                          </div>
+                          <div class="half-box">
+                            <input type="submit" id="btn-submit 1" value="Login com Google">       
+                        </div>
+                        <div class="half-box">
+                            <input type="submit" id="btn-submit 1" value="Login com Facebook ">       
+                        </div>
+                        <div class="full-box">
+                            <input type="submit" id="btn-submit 2" value="Criar conta">       
+                        </div>
+                      
+                    </div>
+                    
+
+
+                  </form>
+              </div>
+          </section>
+      <p class="error-validation template"></p>
+  
   </body>
 </html>
