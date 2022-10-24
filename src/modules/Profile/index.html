@@ -5,12 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../global/index.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>PUC Music</title>
   </head>
   <body>
-    <h1>PROFILE</h1>
-    <a href="../Home/">Ir para Home</a>
-    <a href="../Login/">Ir para Login</a>
-    <a href="../Profile/">Ir para Profile</a>
+    <main>
+      <section id="profile">
+        <div id="main-container">
+          <form id="profile-form">
+            <div class="full-box">
+              <img src="img.jpg" alt="profile img" style="width:100%">
+              <button class="btn-edit">Editar dados</button>
+            </div>
+
+            <div class="full-box">
+              <input type="text" name="user" id="user" placeholder="Usuário ABC" disabled>
+            </div>
+
+            <div class="full-box">
+              <input type="text" name="email" id="email" placeholder="usuario@email.com" disabled>
+            </div>
+
+            <div class="full-box">
+              <input type="text" name="telephone" id="telephone" placeholder="(99) 99999-9999" disabled>       
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
