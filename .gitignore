@@ -1,4 +1,6 @@
 desktop.ini
-node_modules
+
+.env
 dist
 .cache
+/node_modules
