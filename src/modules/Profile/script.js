@@ -5,7 +5,7 @@ function setFormData() {
 
   
   if(!!data) {
-    document.getElementById("name").value = data.email;
+    document.getElementById("name").value = data.name;
     document.getElementById("email").value = data.email;
     document.getElementById("phone").value = data.phone;
   }
@@ -14,6 +14,6 @@ function setFormData() {
 setFormData()
 
 function handleLogout() {
-  localStorage.clear()
+  // localStorage.clear()
   window.location.href = "http://localhost:5500/src/modules/Login/index.html"
 };
