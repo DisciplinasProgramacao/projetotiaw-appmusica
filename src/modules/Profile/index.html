@@ -4,15 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="../../global/index.css" />
     <title>PUC Music</title>
   </head>
   <body>
-    <h1>PROFILE</h1>
-    <a href="../Home/">Ir para Home</a>
-    <a href="../Login/">Ir para Login</a>
-    <a href="../Profile/">Ir para Profile</a>
+    <header>
+      <img src="../../assets/icons/menu.png" alt="" />
+      <div>
+        <a href=""><img src="../../assets/icons/user.png" alt="" /></a>
+        <a href=""><img src="../../assets/icons/lock.png" alt="" /></a>
+        <a href=""><img src="../../assets/icons/like.png" alt="" /></a>
+      </div>
+      <img src="../../assets/icons/logout.png" alt="" />
+    </header>
+    <main>
+      <div class="image">
+        <img src="../../assets/icons/user.png" alt="" />
+      </div>
+
+      <p>Editar dados</p>
+
+      <div class="inputs">
+        <input
+          name="name"
+          placeholder="Usuário"
+          value="Usuario da Silva"
+          disabled
+        />
+        <input
+          name="email"
+          placeholder="Email"
+          value="usuario@mail.com"
+          disabled
+        />
+        <input
+          name="phone"
+          placeholder="Celular"
+          value="(99) 99999-9999"
+          disabled
+        />
+      </div>
+    </main>
   </body>
-  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
   <script src="../../scripts/getAccessToken.js" type="module"></script>
 </html>
