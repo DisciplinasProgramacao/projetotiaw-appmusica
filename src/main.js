@@ -1,6 +1,3 @@
-// localStorage.setItem('TEST', 'TEST')
-// localStorage.clear()
-
 const hasLocalData = localStorage.length
 
 if (!!hasLocalData) {

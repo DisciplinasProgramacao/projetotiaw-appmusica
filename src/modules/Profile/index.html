@@ -12,11 +12,16 @@
     <header>
       <img src="../../assets/icons/menu.png" alt="" />
       <div>
-        <a href=""><img src="../../assets/icons/user.png" alt="" /></a>
+        <a href="#"><img src="../../assets/icons/user.png" alt="" /></a>
         <a href=""><img src="../../assets/icons/lock.png" alt="" /></a>
         <a href=""><img src="../../assets/icons/like.png" alt="" /></a>
       </div>
-      <img src="../../assets/icons/logout.png" alt="" />
+
+      <img
+        onclick="handleLogout()"
+        src="../../assets/icons/logout.png"
+        alt=""
+      />
     </header>
     <main>
       <div class="image">
@@ -26,26 +31,12 @@
       <p>Editar dados</p>
 
       <div class="inputs">
-        <input
-          name="name"
-          placeholder="Usuário"
-          value="Usuario da Silva"
-          disabled
-        />
-        <input
-          name="email"
-          placeholder="Email"
-          value="usuario@mail.com"
-          disabled
-        />
-        <input
-          name="phone"
-          placeholder="Celular"
-          value="(99) 99999-9999"
-          disabled
-        />
+        <input id="name" name="name" placeholder="Usuário" disabled />
+        <input id="email" name="email" placeholder="Email" disabled />
+        <input id="phone" name="phone" placeholder="Celular" disabled />
       </div>
     </main>
   </body>
+  <script src="./script.js"></script>
   <script src="../../scripts/getAccessToken.js" type="module"></script>
 </html>

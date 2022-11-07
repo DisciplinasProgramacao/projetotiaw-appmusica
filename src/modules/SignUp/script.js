@@ -20,6 +20,7 @@ function getFormData() {
     photo: document.getElementById("upfile").value,
   }
 
-  localStorage.setItem(USER_DATA, data)
-  window.location.href = "http://localhost:5500/src/modules/Login/index.html"
+  localStorage.setItem(USER_DATA, JSON.stringify(data))
+
+  window.location.href = "http://localhost:5500/src/modules/Profile/index.html"
 }
