@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="../../global/index.css" />
+    <script type="text/javascript" src="./index.js"></script>
     <title>PUC Music</title>
   </head>
   <body>
@@ -12,26 +14,29 @@
       <main>
           <section id="login">
            <div id="main-container">
-               <h1>PUC MUSIC</h1>
+            <h1>PUC Music</h1>
                    <form id="register-form">
+                    <form id="register-form">
 
                       <div class="full-box">
                           <label for="name"></label>
-                          <input type="text" name="name" id="users" placeholder="Usuário">       
+                          <input type="text" name="name" id="name" placeholder="Usuário">       
                       </div>
                       <div class="full-box">
                           <label for="password"></label> 
                           <input type="password" name="password" id="password" placeholder="Digite a sua senha">       
                       </div>
                      
-                      <p> 
-                        <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
-                        <label for="manterlogado">Lembrar de mim</label>
-                      </p>  
-
+                        <div class="remember">
+                        <input type="checkbox" class="custom-control-input" id="remember">     
+                          <label class="remember" for="remember">Salvar senha</label>
+                        </div> 
+                        
+                          <!-- Esse botão que preciso de ajuda -->
                           <div class="full-box">
-                              <input type="submit" id="btn-submit" value="Acessar">       
+                              <button type="button" id="btn-submit" onclick="logar()" >Acessar</button>    
                           </div>
+                          <!--  -->
                           <div class="half-box">
                             <input type="submit" id="btn-submit 1" value="Login com Google">       
                         </div>
@@ -39,13 +44,12 @@
                             <input type="submit" id="btn-submit 1" value="Login com Facebook ">       
                         </div>
                         <div class="full-box">
-                            <input type="submit" id="btn-submit 2" value="Criar conta">       
+                            <button type="button" id="btn-submit 2" value="Criar conta"  onclick=" window.location.href='../SignUp/index.html';" >Criar conta</button>
                         </div>
-                        
-
-                    </div>
+                       
+                
+                    </div> 
                     
-
 
                   </form>
               </div>
