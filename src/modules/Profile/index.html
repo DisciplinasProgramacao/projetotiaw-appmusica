@@ -3,18 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="wi dth=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="../../global/index.css" />
     <title>PUC Music</title>
   </head>
   <body>
-    <header>
-      <img src="../../assets/icons/menu.png" alt="" />
+    <header id="header">
+      <img
+        onclick="expandHeader()"
+        id="menuButton"
+        src="../../assets/icons/menu.png"
+        alt=""
+      />
       <div>
-        <a href="#"><img src="../../assets/icons/user.png" alt="" /></a>
-        <a href=""><img src="../../assets/icons/lock.png" alt="" /></a>
-        <a href=""><img src="../../assets/icons/like.png" alt="" /></a>
+        <a href="../Home/index.html"
+          >HOME<img src="../../assets/icons/home.png" alt=""
+        /></a>
+        <a href="./index.html"
+          >PERFIL<img src="../../assets/icons/user.png" alt=""
+        /></a>
+        <a href=""
+          >ALTERAR SENHA<img src="../../assets/icons/lock.png" alt=""
+        /></a>
+        <a href=""
+          >MEUS GOSTOS<img src="../../assets/icons/like.png" alt=""
+        /></a>
       </div>
 
       <img
@@ -25,18 +39,19 @@
     </header>
     <main>
       <div class="image">
-        <img src="../../assets/icons/user.png" alt="" />
+        <img id="image" src="../../assets/icons/user.png" alt="" />
       </div>
 
-      <p>Editar dados</p>
+      <a id="editButton" onclick="handleEdit()">Editar dados</a>
 
       <div class="inputs">
-        <input id="name" name="name" placeholder="Usuário" disabled />
-        <input id="email" name="email" placeholder="Email" disabled />
-        <input id="phone" name="phone" placeholder="Celular" disabled />
+        <input id="name" name="name" placeholder="Usuário" disabled="true" />
+        <input id="email" name="email" placeholder="Email" disabled="true" />
+        <input id="phone" name="phone" placeholder="Celular" disabled="true" />
       </div>
     </main>
   </body>
   <script src="./script.js"></script>
+  <script src="../../global/header.js"></script>
   <script src="../../scripts/getAccessToken.js" type="module"></script>
 </html>

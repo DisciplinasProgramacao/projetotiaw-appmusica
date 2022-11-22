@@ -44,7 +44,22 @@
               <input id="upfile" type="file" value="upload" onchange="sub(this)" />
             </div>
           </div>
-          
+          <input
+            name="password"
+            id="password"
+            placeholder="Senha"
+            value=""
+            required="true"
+          />
+          <input
+            name="repeatedPassword"
+            id="repeatedPassword"
+            placeholder="Confirme sua senha"
+            onchange="validatePassword()"
+            value=""
+            required="true"
+          />
+          <p id="passwordError"></p>
           <button type="button" onclick="getFormData()">Criar conta</button>
           <a href="../Login/index.html">Ja tenho uma conta</a>
     </main>

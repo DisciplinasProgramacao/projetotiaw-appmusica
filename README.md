@@ -23,4 +23,4 @@ O objetivo do PUC Music é recomendar musicas para um usuario. Para isso utiliza
 
 ## Instruções para uso
 
-Iniciar o projeto em `src/modules/Login`
+Iniciar o projeto em `src/index.html`
