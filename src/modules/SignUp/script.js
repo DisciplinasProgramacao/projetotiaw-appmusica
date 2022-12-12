@@ -28,6 +28,7 @@ function validatePassword() {
 }
 
 function validateForm() {
+
   const name = document.getElementById("name").value;
   const user = document.getElementById("user").value;
   const email = document.getElementById("email").value;
