@@ -11,7 +11,6 @@ function setFormData() {
     document.getElementById("name").value = data.name;
     document.getElementById("email").value = data.email;
     document.getElementById("phone").value = data.phone;
-    document.getElementById("image").src = data.photo;
   }
 };
 

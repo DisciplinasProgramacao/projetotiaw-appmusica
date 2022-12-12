@@ -12,12 +12,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 400px;
   width: 100%;
 }
 
 .inputs input {
   margin: 10px 0;
   width: 250px;
+
   border: 0;
   background-color: var(--bg-primary);
   border-bottom: 1px solid black;
@@ -61,6 +63,7 @@ body {
   margin-top: 32px;
   height: 40px;
   background-color: transparent;
+  max-width: 400px;
   border: 1px solid black;
   border-radius: 32px;
   text-decoration: none;
