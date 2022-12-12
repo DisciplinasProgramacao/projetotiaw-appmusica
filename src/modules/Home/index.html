@@ -1,66 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="wi dth=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../styles/header.css" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="../../global/index.css" />
-    <title>PUC Music</title>
-  </head>
-  <body>
-    <header id="header">
-      <img
-        onclick="expandHeader()"
-        id="menuButton"
-        src="../../assets/icons/menu.png"
-        alt=""
-      />
-      <div>
-        <a href="../Home/index.html"
-          >HOME<img src="../../assets/icons/home.png" alt=""
-        /></a>
-        <a href="./index.html"
-          >PERFIL<img src="../../assets/icons/user.png" alt=""
-        /></a>
-        <a href=""
-          >ALTERAR SENHA<img src="../../assets/icons/lock.png" alt=""
-        /></a>
-        <a href=""
-          >MEUS GOSTOS<img src="../../assets/icons/like.png" alt=""
-        /></a>
-      </div>
 
-      <img
-        onclick="handleLogout()"
-        src="../../assets/icons/logout.png"
-        alt=""
-      />
-    </header>
-    <main>
-      <div id="image"></div>
-      <h3 id="name">MUSIC - NAME</h3>
-      <div class="buttons">
-        <button>
-          <img src="../../assets/icons/prev.png" alt="" srcset="" />
-        </button>
-        <button>
-          <img src="../../assets/icons/return.png" alt="" srcset="" />
-        </button>
-        <button>
-          <img src="../../assets/icons/pause 1.png" alt="" srcset="" />
-        </button>
-        <button>
-          <img src="../../assets/icons/return-1.png" alt="" srcset="" />
-        </button>
-        <button>
-          <img src="../../assets/icons/next 1.png" alt="" srcset="" />
-        </button>
-      </div>
-    </main>
-  </body>
-  <script src="./script.js"></script>
-  <script src="../../global/header.js"></script>
-  <script src="../../scripts/getAccessToken.js" type="module"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="../../global/index.css" />
+  <link rel="stylesheet" href="../../styles/header.css" />
+  <link rel="stylesheet" href="../../styles/mid-query.css" />
+  <link rel="stylesheet" href="../../styles/large-query.css" />
+  <title>PUC Music</title>
+</head>
+
+<body>
+  <header id="header">
+    <img onclick="expandHeader()" id="menuButton" src="../../assets/icons/menu.png" alt="" />
+    <div>
+      <a href="../Home/index.html">HOME<img src="../../assets/icons/home.png" alt="" /></a>
+      <a href="../Profile/index.html">PERFIL<img src="../../assets/icons/user.png" alt="" /></a>
+      <a href="../MusicStyle/index.html">MEUS GOSTOS<img src="../../assets/icons/like.png" alt="" /></a>
+    </div>
+
+    <img onclick="handleLogout()" src="../../assets/icons/logout.png" alt="" />
+  </header>
+  <main id="home">
+    <div id="genres"></div>
+    <audio id="audio"></audio>
+
+    <img id="image"></img>
+    <h3 id="name"></h3>
+
+    <div class="barra">
+      <div id="myBar"></div>
+    </div>
+
+    <div class="buttons">
+      <button id="prev">
+        <img src="../../assets/icons/prev.png" alt="" />
+      </button>
+      <button>
+        <img src="../../assets/icons/return.png" alt="" />
+      </button>
+      <button id="playAndPause">
+        <img id="playAndPauseImg" alt="" />
+      </button>
+      <button>
+        <img src="../../assets/icons/return-1.png" alt="" />
+      </button>
+      <button id="next">
+        <img src="../../assets/icons/next 1.png" alt="" />
+      </button>
+    </div>
+
+    <a target="_blank" id="spotifyLink">Abrir no spotify</a>
+  </main>
+</body>
+<script src="./script.js"></script>
+<script src="../../global/header.js"></script>
+
 </html>

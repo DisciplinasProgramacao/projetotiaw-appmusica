@@ -18,7 +18,7 @@ function setFormData() {
 setFormData()
 
 function handleLogout() {
-  window.location.href = "http://localhost:5500/src/modules/Login/index.html"
+  window.location.href = "../Login/index.html"
 };
 
 function handleEdit() {

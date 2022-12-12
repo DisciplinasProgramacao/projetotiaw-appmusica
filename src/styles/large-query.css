@@ -1,0 +1,14 @@
+@media screen and (min-width: 1080px) {
+  #home {
+    margin: 0;
+    margin-top: 10%;
+  }
+
+  #home #spotifyLink {
+    width: 30%;
+  }
+
+  #musicStyle #genres {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}

@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="../../global/index.css" />
+    <link rel="stylesheet" href="../../styles/header.css" />
+    <link rel="stylesheet" href="../../styles/mid-query.css" />
+    <link rel="stylesheet" href="../../styles/large-query.css" />
     <title>PUC Music</title>
-    <script src="./script.js"></script>
   </head>
   <body>
     <main>
@@ -19,16 +21,17 @@
           <input
             name="name"
             id="name"
+            placeholder="Nome completo"
+          />
+          <input
+            name="user"
+            id="user"
             placeholder="Usuário"
-            value="Usuario da Silva"
-            required
           />
           <input
             name="email"
             id="email"
             placeholder="Email"
-            value="usuario@mail.com"
-            required
           />
           <input
             name="phone"
@@ -36,7 +39,6 @@
             placeholder="Celular"
             value="(99) 99999-9999"
             maxlength="15"
-            required="true"
           />
           <div class="file-uploader">
             <div id="button" onclick="getFile()">Insira uma foto de perfil</div>
@@ -49,7 +51,6 @@
             id="password"
             placeholder="Senha"
             value=""
-            required="true"
           />
           <input
             name="repeatedPassword"
@@ -57,12 +58,10 @@
             placeholder="Confirme sua senha"
             onchange="validatePassword()"
             value=""
-            required="true"
           />
           <p id="passwordError"></p>
           <button type="button" onclick="getFormData()">Criar conta</button>
           <a href="../Login/index.html">Ja tenho uma conta</a>
     </main>
   </body>
-  <script src="../../scripts/getAccessToken.js" type="module"></script>
 </html>

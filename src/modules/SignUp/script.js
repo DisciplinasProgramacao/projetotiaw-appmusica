@@ -1,5 +1,5 @@
 const USERS_DATA = "LOCALSTORAGE_USERS_DATA"
-const CURRENT_USER = "LOCALSTORAGE_CURRENT_USER"
+
 let users = JSON.parse(localStorage.getItem("LOCALSTORAGE_USERS_DATA"))|| [];
 
 function getFile() {
@@ -29,25 +29,32 @@ function validatePassword() {
 
 function validateForm() {
   const name = document.getElementById("name").value;
+  const user = document.getElementById("user").value;
   const email = document.getElementById("email").value;
   const phone = document.getElementById("phone").value;
   const password = document.getElementById("password").value;
   const repeatedPassword = document.getElementById("repeatedPassword").value;
 
-  if ([name, email, phone, password, repeatedPassword].includes("")) {
-    alert("Preencha todos os campos!");
-    return false;
+  if (![name, user, email, phone, password, repeatedPassword].includes("") && validatePassword()) {
+    return true;
   }
 
-  return true;
+  if (validatePassword()) {
+    alert("Preencha todos os campos!");
+    return false;
+  } else {
+    return false;
+  }
 }
 
 function getFormData() {
   const isValid = validateForm();
 
-  if (isValid) {
+  if (!!isValid) {
+
     const data = {
       name: document.getElementById("name").value,
+      user: document.getElementById("user").value,
       email: document.getElementById("email").value,
       phone: document.getElementById("phone").value,
       password: document.getElementById("password").value,
@@ -56,9 +63,9 @@ function getFormData() {
   
     users.push(data)
   
-    localStorage.setItem(CURRENT_USER, JSON.stringify(data))
     localStorage.setItem(USERS_DATA, JSON.stringify(users))
   
-    window.location.href = "http://localhost:5500/src/modules/Profile/index.html"
+    window.location.href = "../Login/index.html"
+  } else {
   }
 }
