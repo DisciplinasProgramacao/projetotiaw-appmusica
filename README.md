@@ -4,6 +4,15 @@
 
 O objetivo do PUC Music é recomendar musicas para um usuario. Para isso utilizaremos da [API do Spotify](https://developer.spotify.com/documentation/web-api/) e tecnicas para recomendacao de estilos parecidos.
 
+# Requisitos cumpridos: 100/100
+    
+## Comentários da correção
+
+Pessoal, depois dos problemas de ritmo e atualizações irregulares no projeto, o trabalho finalizou bem. Parabéns pelo que vocês conseguiram, um pouco mais simples que outros em termos de requinte, porém totalmente funcional, como poucos fizeram. 
+
+A nota é individual baseada na inspeção dos commits e do kanban.
+
+
 ## Alunos integrantes da equipe
 
 - [Gabriel Augusto de Oliveira Pinto](https://github.com/g4brieloliveira)
