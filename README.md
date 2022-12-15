@@ -6,6 +6,10 @@ O objetivo do PUC Music é recomendar musicas para um usuario. Para isso utiliza
 
 # Requisitos cumpridos: 100/100
     
+# Nota de apresentação 80/100
+
+**Importante:** A nota-base do grupo é calculada a partir das porcentagens acima. A nota individual leva em consideração ainda a nota de acompanhamento nas reuniões de grupos, a participação efetiva nas tarefas e commits e os descontos por falta nas reuniões. 
+
 ## Comentários da correção
 
 Pessoal, depois dos problemas de ritmo e atualizações irregulares no projeto, o trabalho finalizou bem. Parabéns pelo que vocês conseguiram, um pouco mais simples que outros em termos de requinte, porém totalmente funcional, como poucos fizeram. 
